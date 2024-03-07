@@ -2,7 +2,9 @@ import Bounded from "@/app/components/Boundex";
 import Button from "@/app/components/Button";
 import Heading from "@/app/components/Heading";
 import { Content } from "@prismicio/client";
+import { PrismicNextImage } from "@prismicio/next";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
+import Avatar from "./Avatar";
 
 /**
  * Props for `Biogography`.
@@ -28,6 +30,10 @@ const Biogography = ({ slice }: BiogographyProps): JSX.Element => {
         <Button
           linkField={slice.primary.button_link}
           label={slice.primary.button_text}
+        />
+        <Avatar
+          image={slice.primary.avatar}
+          className="row-start-1 max-w-sm md:col-start-2 md:row-end-3"
         />
       </div>
     </Bounded>
