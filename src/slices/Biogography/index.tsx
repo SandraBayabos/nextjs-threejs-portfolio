@@ -1,4 +1,4 @@
-import Bounded from "@/app/components/Boundex";
+import Bounded from "@/app/components/Bounded";
 import Button from "@/app/components/Button";
 import Heading from "@/app/components/Heading";
 import { Content } from "@prismicio/client";

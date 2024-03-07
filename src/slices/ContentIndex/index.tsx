@@ -1,4 +1,4 @@
-import Bounded from "@/app/components/Boundex";
+import Bounded from "@/app/components/Bounded";
 import Heading from "@/app/components/Heading";
 import { Content, isFilled } from "@prismicio/client";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
