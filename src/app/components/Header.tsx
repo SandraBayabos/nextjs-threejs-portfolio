@@ -1,8 +1,5 @@
-import React from "react";
 import { createClient } from "@/prismicio";
-import Link from "next/link";
-import { PrismicNextLink } from "@prismicio/next";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 
 export default async function Header() {
   const client = createClient();
