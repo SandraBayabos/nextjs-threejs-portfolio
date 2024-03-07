@@ -74,6 +74,7 @@ function ContentList({
           }
         );
       });
+      return () => ctx.revert();
     }, component);
   }, []);
 
