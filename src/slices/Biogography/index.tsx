@@ -19,6 +19,7 @@ const Biogography = ({ slice }: BiogographyProps): JSX.Element => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
+      className="pt-8 pb-16 md:pt-16 md:pb-24"
     >
       <div className="grid gap-x-8 gap-y-6 md:grid-cols-[2fr, 1fr]">
         <Heading as="h1" size="xl" className="col-start-1">
