@@ -40,7 +40,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             each: 0.1,
             from: "random",
           },
-        }
+        },
       );
 
       tl.fromTo(
@@ -50,7 +50,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
           opacity: 0,
           scale: 1.2,
         },
-        { opacity: 1, y: 0, duration: 1, scale: 1, ease: "elastic.out(1,0.3)" }
+        { opacity: 1, y: 0, duration: 1, scale: 1, ease: "elastic.out(1,0.3)" },
       );
     }, component);
     return () => ctx.revert();
@@ -75,7 +75,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       data-slice-variation={slice.variation}
       ref={component}
     >
-      <div className="grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center">
+      <div className="grid min-h-[70vh] grid-cols-1 items-center md:grid-cols-2">
         <Shapes />
         <div className="col-start-1 md:row-start-1">
           <h1
